@@ -1,0 +1,38 @@
+.noGames{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noGames p{
+    font-family: 'Bilbo', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0;
+    margin-top: 4rem;
+}
+
+.noGames button{
+    font-size: 1.2rem;
+}
+
+.newGame{
+    position: fixed;
+    right: 0.5rem;
+    bottom: 1.7rem;
+    background-color: #270F36;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 0.5rem 1rem;
+    color: var(--text-secondary);
+    
+}
+
+.newGame:active{
+    scale: 0.9;
+    opacity: 0.83;
+}

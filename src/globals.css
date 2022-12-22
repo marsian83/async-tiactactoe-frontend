@@ -1,0 +1,9 @@
+:root {
+  --foreground: #f4f4f4;
+  --primary: #f2c94c;
+  --secondary: #2f80ed;
+  --success: #6fcf97;
+  --error: #eb5757;
+  --text-primary: #333333;
+  --text-secondary: #ffffff;
+}

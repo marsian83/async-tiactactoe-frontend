@@ -1,0 +1,211 @@
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* padding: 0 1.5rem 0 1.5rem; */
+}
+
+.btn {
+  border: none;
+  color: var(--text-secondary);
+  font-weight: 400;
+  font-size: 1.69rem;
+  padding: 1.5rem 0;
+  width: 95%;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  font-family: "Epilogue", sans-serif;
+  transition: scale 200ms, opacity 100ms;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  scale: 1.05;
+}
+
+.btn:active {
+  scale: 0.93;
+  opacity: 0.8;
+}
+
+.btn-back {
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  font-weight: 400;
+  opacity: 0.75;
+  transform: scale(1.2);
+  align-self: baseline;
+  text-decoration: none;
+  transition: opacity 400ms;
+  color: var(--text-primary);
+}
+
+.btn-back:active {
+  opacity: 0.1;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 1rem;
+  width: 90%;
+  color: var(--text-primary);
+  align-self: flex-start;
+}
+
+.input {
+  margin: 0;
+  margin-top: 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.input p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.input input {
+  background-color: var(--foreground);
+  border: none;
+  width: 100%;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 1.5rem 0 1.5rem 1rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+.p-0 {
+  padding: 0;
+}
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.px-3 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.my-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.my-4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.my-5 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-success {
+  background-color: var(--success);
+}
+.bg-error {
+  background-color: var(--error);
+}
+
+.color-primary {
+  color: var(--text-primary);
+}
+.color-secondary {
+  color: var(--text-secondary);
+}
+
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+
+.align-start {
+  align-self: flex-start;
+}
+.align-end {
+  align-self: flex-end;
+}
+
+.justify-start {
+  justify-self: flex-start;
+}
+.justify-end {
+  justify-self: end;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.game-piece {
+  height: 3rem;
+  aspect-ratio: 1;
+}
