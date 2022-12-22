@@ -1,0 +1,42 @@
+.turnHint {
+  background-color: #ffe79e;
+  color: var(--text-primary);
+  padding: 1rem;
+  text-align: center;
+  width: 90%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.board {
+  background-color: #ffe79e;
+  color: var(--text-primary);
+  width: 100%;
+  margin-top: 0;
+  aspect-ratio: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pieceBox {
+    margin-top: -1rem;
+    width: 30%;
+    aspect-ratio: 1;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pieceBox img{
+  height: 4rem;
+  aspect-ratio: 1;
+}
